@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow&family=Arimo:wght@500;700&family=Asap+Condensed:wght@500&family=Bebas+Neue&family=Comfortaa:wght@400;600&family=Dancing+Script:wght@700&family=Francois+One&family=Kanit:wght@500;600&family=M+PLUS+2&family=Mochiy+Pop+P+One&family=Moon+Dance&family=Oswald&family=Overpass&family=Quicksand:wght@300;400&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@200;400&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow&family=Arimo:wght@500;700&family=Asap+Condensed:wght@500&family=Bebas+Neue&family=Comfortaa:wght@400;600&family=Dancing+Script:wght@700&family=Francois+One&family=Kanit:wght@500;600&family=M+PLUS+2&family=Mochiy+Pop+P+One&family=Moon+Dance&family=Open+Sans:wght@300&family=Oswald&family=Overpass&family=Quicksand:wght@300;400&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@200;400&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow&family=Arimo:wght@500;700&family=Asap+Condensed:wght@500&family=Bebas+Neue&family=Comfortaa:wght@400;600&family=Dancing+Script:wght@700&family=Francois+One&family=Kanit:wght@500;600&family=Lobster&family=M+PLUS+2&family=Mochiy+Pop+P+One&family=Moon+Dance&family=Open+Sans:wght@300&family=Oswald&family=Overpass&family=Quicksand:wght@300;400&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@200;400&family=Varela+Round&display=swap");
+* {
+  font-family: "Roboto";
+  font-size: 500;
+}
+body {
+  background-image: url(./src/bckg.jpg);
+  object-fit: cover;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*NAVIGATON LINE*/
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.347);
+}
+nav h1 {
+  font-family: "Lobster";
+  color: rgb(151, 0, 0);
+  font-weight: 400;
+  font-size: 90px;
+}
+
+/*CONTAINER*/
+.container {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(225, 225, 225);
+  border-radius: 10px;
+  margin: 300px;
+  margin-top: 100px;
+  height: 100%;
+  background-color: rgb(16, 16, 16);
+}
+.film-box {
+  background-color: rgb(193, 192, 192);
+  margin: 10px;
+  padding: 100px;
+  border-radius: 10px;
+}
+.film-box .film-image img {
+  width: 400px;
+  height: 600px;
+  object-fit: fill;
+}
+.film-name {
+  font-size: 1.5vw;
+  color: rgb(24, 24, 24);
+}
+button {
+  height: 70px;
+  border-radius: 10px;
+  width: auto;
+  margin: 5px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 2vw;
+  /* color: rgb(255, 251, 243);
+  border: 1px solid black;
+  background-color: rgba(128, 128, 128, 1);*/
+  cursor: pointer;
+}
+
+.price {
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+}
+.total {
+  margin-left: 50px;
+  width: 100%;
+  text-align: left;
+}
+/*
+FOOTER
+*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding: 50px;
+  letter-spacing: 4px;
+  background-color: rgb(62, 62, 62);
+  color: white;
+}
