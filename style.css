@@ -92,3 +92,25 @@ footer {
   background-color: rgb(62, 62, 62);
   color: white;
 }
+
+@media (max-width: 1265px) {
+  .container {
+    margin: 100px;
+  }
+}
+@media (max-width: 850px) {
+  .film-box {
+    background-color: rgb(193, 192, 192);
+    margin: 5px;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .film-box .film-image img {
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+    box-sizing: border-box;
+  }
+}
